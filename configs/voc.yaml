@@ -1,0 +1,33 @@
+exp:
+  backbone: resnet50
+  checkpoint_dir: checkpoint
+  tensorboard_dir: runs
+  preds_dir: preds
+  cam_dir: cam
+  results_dir: results
+  final_weights: resnet_cam_final.pth
+
+dataset:
+  root_dir: /data/users/rulixiang/VOCdevkit/VOC2012
+  txt_dir: dataset/voc
+  n_classes: 20
+
+train:
+  split: dataset/voc/train_aug.txt
+  batch_size: 16
+  max_epochs: 6
+  save_iters: 100
+  scales: [0.5, 0.75, 1.0, 1.25, 1.5]
+  opt:
+    learning_rate: 0.01
+    weight_decay: 1e-4
+    momentum: 0.9
+    power: 0.9
+
+val:
+  split: dataset/voc/val.txt
+
+cam:
+  split: dataset/voc/train.txt
+  scales: [1.0, 0.5, 1.5, 2.0]
+  bkgscore: 0.14
