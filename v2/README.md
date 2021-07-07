@@ -58,6 +58,7 @@ python eval_cam.py
 
 - Our trained weights are available at [Google Drive](https://drive.google.com/drive/folders/1h8Erevo7uQLq56yP-c89za28a0NvxzWG?usp=sharing).
 - CAMs on PASCAL VOC 2012 dataset:
+
 | Method | train mIoU | val mIoU |                                              Weights                                               |
 |:------:|:----------:|:--------:|:--------------------------------------------------------------------------------------------------:|
 | VWL-M  |    56.9    |   56.4   | [Google Drive](https://drive.google.com/file/d/1S-jJiR35U_9a2IP2m9wdgLeotnQOje3Y/view?usp=sharing) |
