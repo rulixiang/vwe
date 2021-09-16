@@ -5,7 +5,7 @@ exp:
   preds_dir: preds
   cam_dir: cam
   results_dir: results
-  final_weights: resnet_cam_hp_no_gap.pth
+  final_weights: resnet_cam.pth
 
 dataset:
   root_dir: /data/users/rulixiang/VOCdevkit/VOC2012
