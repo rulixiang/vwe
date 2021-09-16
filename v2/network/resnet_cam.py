@@ -6,7 +6,7 @@ import numpy as np
 
 def spatial_pyramid_hybrid_pool(x, levels=[1,2,4]):
     n,c,h,w = x.shape
-    gamma = 0
+    gamma = 2
     x_p = gamma * F.adaptive_avg_pool2d(x, (1,1))
     for i in levels:
         pool = F.max_pool2d(x, kernel_size=(h//i, w//i), padding=0)
