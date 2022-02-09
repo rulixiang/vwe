@@ -1,6 +1,6 @@
-# Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling
+# [IJCV 2022] Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling
 
-Implementation of [Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling](https://lixiangru.cn/assets/files/vwl.pdf) [Under Review], an improved version of our [IJCAI 2021 work](https://lixiangru.cn/assets/files/vwe.pdf).
+Implementation of IJCV 2022 paper [Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling](https://lixiangru.cn/assets/files/vwl.pdf), an improved version of our [IJCAI 2021 work](https://lixiangru.cn/assets/files/vwe.pdf).
 
 ## What's New?
 
