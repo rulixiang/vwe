@@ -1,4 +1,9 @@
 # [IJCV 2022] Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-semantic-segmentation-with-1/weakly-supervised-semantic-segmentation-on-1)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on-1?p=weakly-supervised-semantic-segmentation-with-1)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-semantic-segmentation-with-1/weakly-supervised-semantic-segmentation-on)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on?p=weakly-supervised-semantic-segmentation-with-1)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/weakly-supervised-semantic-segmentation-with-1/weakly-supervised-semantic-segmentation-on-4)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on-4?p=weakly-supervised-semantic-segmentation-with-1)
+
+### :fire::fire::fire: SOTA WSSS performance on VOC with only image-level labels. (2022/02)
 
 Implementation of IJCV 2022 paper [Weakly-Supervised Semantic Segmentation with Visual Words Learning and Hybrid Pooling](https://lixiangru.cn/assets/files/vwl.pdf), an improved version of our [IJCAI 2021 work](https://lixiangru.cn/assets/files/vwe.pdf).
 
